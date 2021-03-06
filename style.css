@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.container {
+  background: url(/img/main.jpeg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+  display: flex;
+  position: absolute;
+  left: 60%;
+  margin-top: 40px;
+  list-style: none;
+}
+
+a {
+  display: inline;
+  font-size: 50px;
+  padding: 10px 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo h1 {
+  font-size: 60px;
+  color: white;
+  padding-left: 20px;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+nav ul a:hover {
+  background-color: red;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+main h1 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: white;
+  font-size: 140px;
+}
+
+main button {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  padding: 20px 30px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+
+main button:hover {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  padding: 30px 40px;
+  color: white;
+  font-size: 50px;
+  background-color: red;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.page2_h1 {
+  position: absolute;
+  top: 10%;
+}
+
+.page2_p {
+  position: absolute;
+  top: 30%;
+  height: 500px;
+  width: 80%;
+  left: 10%;
+  font-size: 50px;
+  color: aliceblue;
+  box-shadow: 0 0 60px;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+.slike img {
+  box-shadow: 0 0 50px;
+  width: 600px;
+  height: 400px;
+  margin-left: 20px;
+  margin-top: 300px;
+  border-radius: 20px;
+}
+
+.h1_form {
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+
+.myForm {
+  width: 1000px;
+  height: 600px;
+  margin: 200px auto;
+  box-shadow: 0 0 50px;
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+}
+
+.username,
+.password,
+.email {
+  width: 100%;
+  margin-bottom: 80px;
+  height: 80px;
+  font-size: 40px;
+}
+
+.submit {
+  margin-left: 390px;
+  margin-top: 30px;
+  padding: 20px 50px;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+.submit:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 40px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
